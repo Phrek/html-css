@@ -1,10 +1,51 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>HTML & CSS - practice</title>
-  </head>
-  <body>
 
-  </body>
+<head>
+  <title>Text</title>
+</head>
+
+<body>
+  <form class="" action="#" method="get">
+    <fieldset>
+      <legend>
+        Your Details:
+      </legend>
+      <label>Name:</label>
+      <input type="text" name="text" />
+      <br />
+      <label>Email:</label>
+      <input type="email" name="email" />
+    </fieldset>
+
+    <fieldset>
+      <legend>
+        Your review:
+      </legend>
+      <label>How did you hear about us?</label>
+      <select name="options">
+        <option value="Google">Google</option>
+        <option value="Yahoo">Yahoo</option>
+      </select>
+      <br />
+      <br />
+      <label>Would you visit again?</label>
+      <input type="radio" name="options" value="Yes"/> Yes
+      <input type="radio" name="options" value="No" /> No
+      <br>
+      <br>
+      <label>Comments</label>
+      <br>
+      <textarea rows="4" cols="40" id="comments"></textarea>
+      <br />
+      <br>
+      <label for="sign">Sign me up for e-mail updates</label>
+      <input type="checkbox" name="sign-me" value="yes">
+      <br>
+      <br>
+      <input type="submit" name="submit" value="Submit">
+    </fieldset>
+  </form>
+
+</body>
+
 </html>
