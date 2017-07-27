@@ -1,0 +1,28 @@
+body{
+  width: 960px;
+  margin: 0 auto;
+}
+h1{
+  text-align: center;
+}
+li{
+  display: inline;
+}
+.content {
+overflow: auto;
+height: 100%;}
+
+.nav,.feature,.footer{
+  background-color: #efefef;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+.col1,.col2,.col3{
+  float: left;
+  margin: 10px;
+  background-color: #efefef;
+  padding: 10px;
+  width: 280px;
+  text-align: center;
+}
