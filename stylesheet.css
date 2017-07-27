@@ -1,9 +1,14 @@
-*{
-  font-family: "Arial";
-}
 h1 {
   font-family: "Verdana",monospace;
   font-size: 50px;
+}
+h1.firstheader{
+  position: fixed;
+top: 0px;
+padding: 10px;
+margin: 0px;
+width: 100%;
+background-color: #efefef;
 }
 i {
   color: green;
@@ -11,9 +16,42 @@ i {
 b {
   color: red;
 }
+p{
+  top: 100px;
+}
 
-p#paragraph {
+p.paragraph {
   text-shadow: 2px;
   font-family:sans-serif;
-  font-size: 30px
+  font-size: 30px;
+  margin-top: 100px;
+}
+
+p.p-float{
+  float: left;
+  margin: 5px;
+  padding: 5px;
+
+  width: 250px;
+}
+.float-element{
+  width: 1280px;
+  height: 900px;
+}
+
+
+body {
+font-family: Arial;
+  color: #665544;
+padding: 10px;}
+
+.page {
+border: 1px solid #665544;
+background-color: inherit;
+padding: inherit;}
+
+.multi-column{
+  width: 1280px;
+  height: 900px;
+  clear: both;
 }
