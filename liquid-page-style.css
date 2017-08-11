@@ -1,0 +1,32 @@
+body{
+  width: 90%;
+  margin: 0 auto;
+}
+h1{
+  text-align: center;
+}
+li{
+  display: inline;
+  padding: 0.5em;
+}
+#content{
+  overflow: auto;
+}
+#navbar, #feature, #footer {
+margin: 1%;}
+.col-1, .col-2, .col-3{
+  width: 31.3%;
+float: left;
+margin: 1%;
+}
+.col-3{
+  margin-right: 0%;
+}
+
+#navbar, #footer {
+background-color: #efefef;
+padding: 0.5em 0;}
+#feature, .col-1,.col-2,.col-3{
+height: 10em;
+margin-bottom: 1em;
+background-color: #efefef;}
